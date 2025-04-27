@@ -5,6 +5,10 @@ description = ""
 authors = [
     {name = "Suyash Kumar Singh",email = "blogbydev@gmail.com"}
 ]
+
+packages = [
+    { include = "."}
+]
 readme = "README.md"
 requires-python = "3.11.11"
 dependencies = [
@@ -114,7 +118,13 @@ dependencies = [
     "wcwidth (==0.2.13)",
     "webcolors (==24.11.1)",
     "webencodings (==0.5.1)",
-    "websocket-client (==1.8.0)"
+    "websocket-client (==1.8.0)",
+    "qdrant-client (>=1.14.2,<2.0.0)",
+    "sentence-transformers (>=4.1.0,<5.0.0)",
+    "ipywidgets (>=8.1.6,<9.0.0)",
+    "fastembed (>=0.6.1,<0.7.0)",
+    "pdfplumber (>=0.11.6,<0.12.0)",
+    "pymupdf (>=1.25.5,<2.0.0)"
 ]
 
 
